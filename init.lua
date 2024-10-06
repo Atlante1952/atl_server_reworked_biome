@@ -20,11 +20,14 @@ if atl_server_reworked_biomes.modpath then
         "biomes/sandstone_desert.lua",
         "biomes/snowy_grassland.lua",
         "biomes/taiga.lua",
+        "biomes/tundra.lua",
+        "biomes/coniferous_forest.lua",
+        "biomes/deciduous_forest.lua",
     }
 
     for _, file in ipairs(files_to_load) do
-        atl_server_reworked_biomes.load_file(atl_server_reworked_biomes.modpath .. "/" .. file)
+        atl_server_reworked_biomes.load_file(minetest.get_modpath("atl_server_reworked_biomes") .. "/" .. file)
     end
 else
-    minetest.log("error", "-!- Files in " .. atl_server_reworked_biomes.modpath .. " mod are not set or valid.")
+    minetest.log("error", "-!- Files in " .. minetest.get_modpath("atl_server_reworked_biomes") .. " mod are not set or valid.")
 end

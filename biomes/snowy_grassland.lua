@@ -4,7 +4,7 @@ minetest.register_decoration({
     place_on = {"default:snow", "default:dirt_with_snow", "default:snowblock", "default:sand"},
     place_offset_y = 0,
     sidelen = 32,
-    fill_ratio = 0.001265,
+    fill_ratio = 0.000565,
     biomes = {"snowy_grassland"},
     y_max = 25,
     y_min = 1,
@@ -14,12 +14,12 @@ minetest.register_decoration({
 })
 
 minetest.register_decoration({
-    name = "atl_server_reworked_biomes:snowy_biome_ice_tower_1",
+    name = "atl_server_reworked_biomes:snowy_biome_ice_tower_2",
     deco_type = "schematic",
     place_on = {"default:snow", "default:dirt_with_snow", "default:snowblock", "default:sand"},
     place_offset_y = 0,
     sidelen = 32,
-    fill_ratio = 0.001265,
+    fill_ratio = 0.000565,
     biomes = {"snowy_grassland"},
     y_max = 35,
     y_min = 1,
@@ -29,12 +29,12 @@ minetest.register_decoration({
 })
 
 minetest.register_decoration({
-    name = "atl_server_reworked_biomes:snowy_biome_ice_tower_1",
+    name = "atl_server_reworked_biomes:snowy_biome_ice_tower_3",
     deco_type = "schematic",
     place_on = {"default:snow", "default:dirt_with_snow", "default:snowblock", "default:sand"},
     place_offset_y = 0,
     sidelen = 16,
-    fill_ratio = 0.001265,
+    fill_ratio = 0.000565,
     biomes = {"snowy_grassland"},
     y_max = 60,
     y_min = 1,

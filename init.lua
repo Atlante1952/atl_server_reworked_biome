@@ -19,6 +19,7 @@ if atl_server_reworked_biomes.modpath then
         "biomes/cold_desert.lua",
         "biomes/sandstone_desert.lua",
         "biomes/snowy_grassland.lua",
+        "biomes/taiga.lua",
     }
 
     for _, file in ipairs(files_to_load) do

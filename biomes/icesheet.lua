@@ -11,7 +11,7 @@ minetest.register_decoration({
 		octaves = 3,
 		persist = 0.66
 	},
-	biomes = {"coniferous_forest"},
+	biomes = {"icesheet"},
 	y_max = 31000,
 	y_min = 4,
 	schematic = minetest.get_modpath("atl_server_reworked_biomes") .. "/schematics/atl_server_reworked_biomes_pine_tree_2.mts",

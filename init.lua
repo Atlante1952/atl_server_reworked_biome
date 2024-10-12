@@ -30,6 +30,7 @@ if atl_server_reworked_biomes.modpath then
         "biomes/temperate_coniferous_forest.lua",
         "biomes/bamboo_forest.lua",
         "biomes/charred_land_biome.lua",
+        "biomes/tropical_rainforest.lua",
     }
 
     for _, file in ipairs(files_to_load) do
